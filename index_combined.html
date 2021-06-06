@@ -1,0 +1,421 @@
+<html>
+    <head>
+        <title>Theo Constructions</title>
+
+        <!--Puts icon to the title bar-->
+        <link rel="icon" href="./img/logo.png" type="image/x-icon">
+
+        <!--Connect Css file-->
+        <link rel="stylesheet" href="style_combined.css">
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Link for bootstrap-->
+        <link rel="stylesheet"href ="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+        <!--Link for fonts sites-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--HEADER-navbar-->
+        <header class="header " style="background-color: #e9e5e5; padding: 0  0 2px 0;">
+            <nav class="navbar navbar-expand-md navbar-dark " >
+                <figure class="fig-logo">
+                    <a class="navbar-brand" href="./index_combined.html"><img src="./img/logo.png" alt="Theo's Constructions Logo"
+                            height="95;" width="auto"></a>
+                </figure>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    style="background-color:9b2c2c;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end  align-items-center  " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link"   href="#about_us" style="color: #9b2c2c;">About Us<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features" style="color: #9b2c2c;">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" style="color: #9b2c2c;">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#users-feedback" style="color: #9b2c2c;">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer" style="color: #9b2c2c;">Contact Us</a>
+                        </li>
+                        <li class="nav-item-dropdown">
+                            <div class="nav-link-dropbtn">
+                                <span class="material-icons" style="color: #9b2c2c;">
+                                    language
+                                </span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="./index_combined.html" rel="noopener"><span class=""><img src="./img/uk.png" alt="UK flag" /></a>
+                                <a href="./index_gr.html" rel="noopener"><img src="./img/greece.png" alt="Greece flag" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+
+<!--About_us-->
+<section class="about_us" id="about_us"  >
+    <h1 id="about_us">About Us</h1>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Welcome to <b>Theo Constructions </b>, your number one source for all things about Real Estate Constructions [numbering the services]. 
+                        We're dedicated to giving you the very best of [product], with a focus on [three characteristics, ie: dependability, customer service 
+                        and uniqueness.]
+                        Founded in [year] by [founder's name], [store name] has come a long way from its beginnings in a [starting location, ie: home office, toolshed, Houston, TX.].                          
+                        If you have any questions or comments, please don't hesitate to contact us.</p>                                    
+                        <br><p>Sincerely,
+                        <br><b>Theodore Nikoloudakis </b>
+                    </div>
+                </div>
+            </div>        
+</section>
+
+    <section class="slider" >
+        <div class="container ">
+            <div class="row">
+                <div class="col">
+                    <!-- Parent Carousel div -->
+                    <div id="constructionsAlbum" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators ">
+                            <li data-target="#constructionsAlbum" data-slide-to="0" class="active " style=" background-color: #9b2c2c"></li>
+                            <li data-target="#constructionsAlbum" data-slide-to="1" style=" background-color: #9b2c2c"></li>
+                            <li data-target="#constructionsAlbum" data-slide-to="2" style=" background-color: #9b2c2c"></li>
+                            <li data-target="#constructionsAlbum" data-slide-to="3" style=" background-color: #9b2c2c"></li>
+                        </ol>
+                        <!-- Inner Carousel div -->
+                        <div class="carousel-inner " role="listbox">
+                            <!-- First slide div -->
+                            <div class="carousel-item active ">
+                                <img src="./img/slider/slide_1.jpg" class=" d-block  w-100 scaled" style="height: 450px; "
+                                        alt="butterfly in field">
+                            </div>
+                            <!-- End of first slide -->
+                            <!-- Second slide div -->
+                            <div class="carousel-item ">
+                                <img src="./img/slider/slide_2.jpg" class=" d-block  w100 scaled " style="height: 450px; "
+                                alt="colorful tulips">
+                            </div>
+                            <!-- End of second slide -->
+                            <!-- Third slide div -->
+                            <div class="carousel-item">
+                                <img src="./img/slider/slide_3.jpg" class="d-block w-100 scaled" style="height: 450px; "
+                                    alt="inside of a greenhouse">
+                            </div>
+                            <!-- End of third slide -->
+                            <!-- Fourth slide div -->
+                            <div class="carousel-item">
+                                <img src="./img/slider/slide_4.jpg" class="d-block w-100 scaled" style="height: 450px; "
+                                    alt="inside of a greenhouse">
+                            </div>
+                            <!-- End of fourth slide -->
+                        </div>
+                        <!-- End of inner carousel -->
+                        <!-- Add code for controls below: -->
+                        <a class="carousel-control-prev" href="#constructionsAlbum" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#constructionsAlbum" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- End of carousel component -->
+                </div>
+            </div>
+        </div>
+    </section>
+  
+<!--PROJECTS GALLERY-->
+    <section class= "features" id="features" >
+    <h1>Projects Gallery</h1>
+    <div class= "container">
+        <div class= "row">
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_1.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 1</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_2.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 2</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <div class= "row">
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_3.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 3</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_4.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4 >PROJECT 4</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_5.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 5</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_6.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4 >PROJECT 6</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_7.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 7</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_8.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4 >PROJECT 8</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_9.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4>PROJECT 9</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+            <div class= "col-md-6">
+                <div class= "feature-box">
+                    <div class= "feature-img">
+                        <img class="zoom" src="./img/project/project_10.jpg" >                        
+                    </div>
+                    <div class="feature-details">
+                        <h4 >PROJECT 10</h4>
+                        <figcaption>Project Description</figcaption>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!--FEATURED SERVICES SECTION-->
+    <section class= "gallery" id="services">
+        <h1>Services</h1>
+        <div class="container"> 
+            <div class="row " > 
+                <div class= "col-md-3  ">
+                    <div class= "gallery-box">
+                        <br>
+                        <br>
+                        <img src="./img/services/service_1.jpg">
+                        <hr>
+                        <h4>Αρχιτεκτονική Μελέτη με Συνεργαζόμενο Αρχιτεκτονικό Γραφείο</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_2.jpg">
+                        <hr>
+                        <h4>Αναπαλαίωση Παλαιών Κτιρίων</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_3.jpg">
+                        <hr>
+                        <h4>Κατασκευή Πισίνας</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_4.jpg">
+                        <hr>
+                        <h4>Κατασκευή Περιβάλλον Χώρου</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_5.jpg">
+                        <hr>
+                        <h4>Κατασκευή Περίφραξης</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_6.jpg">
+                        <hr>
+                        <h4>Συντήρηση Οικίας</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_7.jpg">
+                        <hr>
+                        <h4>Ανακαινίσεις Εσωτερικού Χώρου</h4>
+                    </div>
+                </div>
+                <div class= "col-md-3">
+                    <div class= "gallery-box">
+                        <img src="./img/services/service_8.jpg">
+                        <hr>
+                        <h4>Κατασκευή Οικοδομής</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USERS REVIEW-->
+    <section id= "users-feedback" class="users-feedback"  >
+        <h1>Users Review</h1>
+        <div class="container">
+            <div class= "row  ">
+                <div class= "col-md-4">
+                    <div class= "user-review ">
+                        <p>I've recommended the Theo Constructions company to everyone I know. They are true professionals and a genuinely nice guys. 
+                            I realize it won't always be this easy to construct your home, but I think you'd be hard pressed to find a better Construction company.
+                        </p>
+                        <h5>Michail Pikoulas</h5>
+                        <small>Customer</small>
+                     </div>
+                     <img src="./img/me.jpg">
+                </div>
+                <div class= "col-md-4">
+                    <div class= "user-review">
+                        <p>I've recommended the Theo Constructions company to everyone I know. They are true professionals and a genuinely nice guys. 
+                            I realize it won't always be this easy to construct your home, but I think you'd be hard pressed to find a better Construction company.
+                        </p>
+                        <h5>Michail Pikoulas</h5>
+                        <small>Customer</small>
+                     </div>
+                     <img src="./img/me.jpg">
+                </div>
+                <div class= "col-md-4">
+                    <div class= "user-review">
+                        <p>I've recommended the Theo Constructions company to everyone I know. They are true professionals and a genuinely nice guys. 
+                            I realize it won't always be this easy to construct your home, but I think you'd be hard pressed to find a better Construction company.
+                        </p>
+                        <h5>Michail Pikoulas</h5>
+                        <small>Customer</small>
+                     </div>
+                     <img src="./img/me.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <section class= "footer" id="footer">
+         <div class= "container">
+            <div class= "row">
+                <div class= "col-12 col-sm-12 col-md-4 col-lg-3 border-right border-danger">
+                    <img src="./img/logo.png" class="footer-logo">
+                        <h6 style="font-weight: bold;">Your Vision Our Expertise</h6>
+                </div>                                     
+                <div class= "col-12 col-sm-12 col-md-4 col-lg-3 border-right border-danger">
+                    <h4>Follow us on</h4>             
+                    <a href="https://www.facebook.com/theobuildings" style="color: #9b2c2c;" rel="noopener" target="_blank">
+                    <p><i class="fa fa-facebook-official"></i>https://www.facebook.com/theobuildings</p></a> 
+                </div>
+                <div class= "col-12 col-sm-12 col-md-4 col-lg-3 border-right border-danger">
+                    <h4>Quick Contact</h4>
+                    <a href="tel:+306973317450" style="color: #9b2c2c;"><p><i class="fa fa-phone-square"></i>+306973317450</p></a>
+                    <a href="mailto:theonikoloudakis65@gmail.com" style="color: #9b2c2c;" rel="noopener" target="_blank"">
+                    <p><i class="fa fa-envelope"></i>theonikoloudakis65@gmail.com</p></a>                 
+                </div>
+                <div class= "col-12  col-sm-12 col-md-4 col-lg-3 ">                            
+                    <h4>Find Us Here</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3247.9201752948966!2d24.0342!3d35.506252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149c7de8fcc0da1f%3A0xdb327d693950b58e!2sDrakonianou%2014%2C%20Chania%20731%2034!5e0!3m2!1sen!2sgr!4v1622707255162!5m2!1sen!2sgr"
+                        width="225" height="165" style="border:0;" allowfullscreen="" loading="lazy" rel="noopener" target="_blank">
+                    </iframe>
+                </div>
+             </div>
+            </div><hr>
+                     <p class= "copyright" style="font-weight: bold;">&copy; Copyright 2021 Michail Pikoulas & Apostolos Natsaridis</i></p>
+    </section>
+
+        <!--Javascript gia dropdown menu-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous">
+        </script>
+    </body>
+</html>
