@@ -2,10 +2,10 @@
 {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Open sans-serif, Arial, Helvetica;
+    scroll-behavior: auto;
+    font-size:18px;
 }
-
 
 /*navbar*/
 .fig-logo{
@@ -19,7 +19,7 @@
 }
 
 a.nav-link:hover{
-    color: #9b2c2c;
+    color: hsla(1, 56%,39%,1);
     font-weight: 900;   
 }
 
@@ -32,7 +32,7 @@ a.nav-link:hover{
     font-size: 16px;  
     border: none;
     outline: none;
-    color: #9b2c2c;
+    color: hsla(1, 56%,39%,1);
     padding: 8px 8px;
     margin-top: 15px;
 }
@@ -40,7 +40,7 @@ a.nav-link:hover{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #e9e5e5;
+    background-color: #e9e5e5;  
     min-width: 80px;
     max-width: 85px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -57,7 +57,7 @@ a.nav-link:hover{
 }
 
 .dropdown-content a:hover {
-    background-color: #e9e5e5;
+    background-color: hsla(0, 0%, 94%,1);
 }
 
 .nav-item-dropdown:hover .dropdown-content {
@@ -69,18 +69,23 @@ a.nav-link:hover{
     position:relative;
     padding:0 0 20px 0;
     padding:0 0 20px 0;
+    text-align: center;
+    font-size: 20px; 
+    font-family: Open sans-serif;
 }
 
 .about_us p{
     position: relative;
-    text-align: justify;
+    text-align: center;
+    font-family: Open sans-serif;
+    
 }
 
 /*carousel*/
 .slider{
     display: grid;
-    background-color: #e9e5e5;
-    padding: px;
+    background-color: #e9e5e5;  
+    padding: 20px;
     position: relative;
     align-content: center;
     justify-content: center;
@@ -102,22 +107,30 @@ img.scaled{
 h1 {
     text-align: center;
     margin: 20px;
-    color:#9b2c2c;
-    padding: 20px 0;    
+    color:hsla(1, 56%,39%,1);
+    padding: 20px 0;   
+    font-family: Open sans-serif; 
 }
 
 .feature-img img{
     width: 100%;
     position: relative;
+    object-fit:fill;
 }
 
 .feature-img{
     position: relative;
+    width:auto;
+    height:auto;
 }
 
 .feature-details{
     padding:40px;
     text-align:relative;
+}
+
+.feature-details h4{
+    text-align:center;
 }
 
 .feature-box{
@@ -139,6 +152,7 @@ h1 {
     position:relative;
     padding:0 0 20px 0;
     background-color:#e9e5e5;   
+    font-family: Open sans-serif;
 }
 
 .gallery-box{
@@ -151,6 +165,7 @@ h1 {
     border-radius: 10px;
     cursor:pointer;
     transition: 1s;
+    object-fit:fill;
 }
 
 .gallery-box img:hover{
@@ -166,8 +181,8 @@ h1 {
     left:50%;
     transform: translate(-50%, -00%);
     font-size: 18px;
+    font-family: Open sans-serif;
 }
-
 
 /*users-review*/
 .users-feedback{
@@ -176,6 +191,7 @@ h1 {
     padding: 0 0 20px 0;
     justify-content: center;
     align-content: center;
+    font-family: Open sans-serif;
 }
 
 .user-review{
@@ -186,14 +202,8 @@ h1 {
 
 .user-review p{
     padding:50px 10px 10px 10px;
-}
-
-.users-feedback img{
-    width: 60px;
-    height:60px;
-    border-radius:50%;
-    position: relative;
-    margin: -65px 0 20px 40%;
+    font-family: Open sans-serif;
+    text-align:center;
 }
 
 .user-review::before{
@@ -209,8 +219,8 @@ h1 {
 
 /*footer*/
 .footer{
-    background: #e9e5e5;
-    color:#9b2c2c;
+    background: #e9e5e5;  
+    color:hsla(1, 56%,39%,1);
 }
 
 .footer-logo{
@@ -224,11 +234,13 @@ h1 {
     margin-top: 15px;
     margin-bottom: 25px;
     font-weight: bold;
+    font-family: Open sans-serif;
 }
 
 .footer p{
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
+    font-family: Open sans-serif;
 }
 
 .footer .row .fa{
@@ -245,4 +257,6 @@ h1 {
 .footer .copyright{
     padding-bottom: 10px;
     text-align: center;
+    font-family: Open sans-serif;
+    font-size: 14px;
 }
