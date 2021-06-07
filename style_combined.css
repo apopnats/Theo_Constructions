@@ -94,10 +94,6 @@ a.nav-link:hover{
     margin:0px;  
 }
 
-img.scaled{
-    width: 100% !important;
-}
-
 /*PROJECTS GALLERY-*/
 .features{
     padding: 0 0 20px 0;
@@ -120,8 +116,6 @@ h1 {
 
 .feature-img{
     position: relative;
-    width:auto;
-    height:auto;
 }
 
 .feature-details{
@@ -138,8 +132,6 @@ h1 {
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.1); 
     display: block;
     margin-left: auto;
